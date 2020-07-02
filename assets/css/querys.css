@@ -1,0 +1,112 @@
+@media (max-width: 1050px){
+    .container{
+        padding: 0 15px;
+    }
+}
+@media (max-width: 1024px){
+    .padre{
+        grid-template-areas: 
+            "trending trending trending"
+            "trending2 trending2 trending2"
+            "comming comming comming"
+        ;
+    }
+    .box-premiere-one{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .recent-show{
+        padding: 0 15px;
+    }
+}
+@media (max-width: 900px){
+    .header{
+        background: url(../img/header_bg.png) no-repeat top center;
+    }
+    .premiere_now{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .premiere_now--part-one{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .premiere_now--part-two{
+        align-self: center;
+    }
+}
+@media (max-width: 768px){
+    .navigation{
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 80px;
+    }
+    .navigation--items:nth-child(1){
+        margin-left: 0;
+    }
+    .navigation__logo{
+        margin-bottom: 20px;
+    }
+    .trend-movies{
+        height: 200px;
+    }
+}
+@media (max-width: 700px){
+    .padre{
+        grid-template-areas: 
+            "trending"
+            "trending2"
+            "comming"
+        ;
+    }
+    .trend-movie{
+        flex-direction: column;
+    }    
+    .trend-movies{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .trend-movies:nth-child(1){
+        background: url(../img/trend1.png) no-repeat center / 100%;
+    }
+    .trend-movies:nth-child(2){
+        background: url(../img/trend2.png) no-repeat center / 100%;
+    }
+    .trend-movies:nth-child(3){
+        background: url(../img/trend3.png) no-repeat center / 100%;
+    }
+    .recent{
+        flex-direction: column;
+    }
+    .recent-played{
+        width: 100%;
+        margin-right: 0;
+    }
+    .recent-show{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .recents-img{
+        background: url(../img/girls.png) no-repeat center;
+    }
+}
+@media(max-width: 575px){
+    body{
+        font-size: 13px;
+    }
+    .navigation--items{
+        margin-left: 20px;
+    }
+    .navigation--items:nth-child(1){
+        margin-left: 0;
+    }
+}
+@media(max-width: 555px){
+    .premiere_now--movie{
+        margin-right: 10px;
+        width: 141px;
+        height: 80px;
+    }
+}
